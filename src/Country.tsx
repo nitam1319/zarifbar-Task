@@ -61,33 +61,33 @@ export default function Country () {
               </strong>
               <div className='flex w-full flex-wrap gap-6 sm:gap-14'>
                 <div className='flex flex-col flex-1 mt-6 min-w-44 gap-2'>
-                  <p className=''>
+                  <p>
                     <strong>Native Name: </strong>
                     {getCountry[0].name.common}
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Population: </strong>
                     {getCountry[0].population}
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Region: </strong>
                     {getCountry[0].region}
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Sub Region: </strong>
                     {getCountry[0].subregion}
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Capital: </strong>
                     {getCountry[0].capital}
                   </p>
                 </div>
                 <div className='flex flex-col flex-1 mt-6 min-w-44 gap-2'>
-                  <p className=''>
+                  <p>
                     <strong>Top Level Domain: </strong>
                     {getCountry[0].demonyms.eng.f}
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Currencies: </strong>
                     {
                       getCountry[0].currencies[
@@ -95,7 +95,7 @@ export default function Country () {
                       ].name
                     }
                   </p>
-                  <p className=''>
+                  <p>
                     <strong>Languages: </strong>
                     {Object.values(getCountry[0].languages).map((item: any) => (
                       <span>{item} , </span>
